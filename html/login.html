@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../css/logsign.css">
+</head>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/jspages/login.js"></script>
+<body>
+    <div> <!-- Navigation Bar -->
+        <nav class="navbar">
+          <div class="logo">
+            <a href="home.html">
+                <img src="../images/amplogo.png" alt="AMP Website Logo">
+            </a>
+        </div>
+            <div class="nav-links">
+                <a href="contact.html">Contact Us</a>
+                <a href="signup.html">Sign Up</a>
+                <a href="login.html">Login</a>
+            </div>
+        </nav>
+        <section class="hero-section">
+            <div class="hero-background">
+              <img src="https://images.squarespace-cdn.com/content/v1/64ac4cba1753ae48304fd494/66ae79ce-cd75-4876-bf79-19e061b27095/allison-saeng-LYcaPRP12ZM-unsplash.jpg" alt="Hero Image">
+              <div class="overlay"></div>
+            </div>
+            
+            <div class="hero-content">
+              <h1 class="hero-title">Amplify your affiliate program!</h1>
+            </div>
+    
+          </section>
+          
+    </div>
+    
+
+    <FORM NAME="mydbform" id='mydbform' ACTION="http://localhost:8081/loginAccount" METHOD="POST">
+        <main class="signup-container">
+            <h1>Login</h1>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username">
+            <br> </br> 
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="password">
+        </main>
+    </FORM>
+
+
+    <footer class="footer">
+        <div class="footer-left"></div>
+    
+        <div class="footer-center">
+            <a href="https://www.linkedin.com/company/affiliate-marketing-partners/about/"
+               target="_blank"
+               class="linkedin">
+                in
+            </a>
+            <p class="copyright">
+                © 2025 Affiliate Marketing Partners LLC
+            </p>
+        </div>
+    
+        <div class="footer-right">
+            <a href="mailto:info@ampconsulting.co">info@ampconsulting.co</a>
+           <p id="footcontact">
+                <a href="contact.html">Contact Us</a>
+            </p>
+            
+        </div>
+    </footer>
+    
+  
+  </body>
+  </html>
